@@ -1,11 +1,11 @@
 import java.util.*;
 public class Average{
-    public static void main(String ar){
+    public static void main(String ar[]){
         Scanner sc=new Scanner(System.in);
         List<Integer> nums = new ArrayList<>();
         int n,a=1;
+         System.out.print("Enter a numbers to lsit for caculating average and any charcter to start calculating average");
         do {
-            System.out.print("Enter a number  and any charcter to calculate average");
             try{
             n= sc.nextInt();
             nums.add(n);
